@@ -9,8 +9,8 @@
       "version": "0.0.1",
       "dependencies": {
         "@pioleong/astro-mithril": "^0.0.9",
-        "astro": "^5.12.9",
-        "mithril": "^2.3.4",
+        "astro": "^5.12.8",
+        "mithril": "^2.3.3",
         "mithril-node-render": "^3.0.2",
         "tachyons": "^4.12.0"
       },

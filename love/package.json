@@ -8,15 +8,15 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "dependencies": {
+    "@pioleong/astro-mithril": "^0.0.9",
+    "astro": "^5.12.8",
+    "mithril": "^2.3.3",
+    "mithril-node-render": "^3.0.2",
+    "tachyons": "^4.12.0"
+  },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "tailwindcss": "^4.1.11"
-  },
-  "dependencies": {
-    "@pioleong/astro-mithril": "^0.0.9",
-    "astro": "^5.12.9",
-    "mithril": "^2.3.4",
-    "mithril-node-render": "^3.0.2",
-    "tachyons": "^4.12.0"
   }
 }
