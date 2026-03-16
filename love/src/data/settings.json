@@ -1,0 +1,25 @@
+{
+    "title": "hey",
+    "nav": [
+        {
+            "link": "/#actress",
+            "title": "演員"
+        },
+        {
+            "link": "/#writer",
+            "title": "編劇"
+        },
+        {
+            "link": "/#girl",
+            "title": "靚妹"
+        },
+        {
+            "link": "/#faq",
+            "title": "FAQ"
+        },
+        {
+            "link": "/#newsletter",
+            "title": "Newsletter"
+        }
+    ]
+}
