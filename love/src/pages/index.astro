@@ -1,19 +1,28 @@
 ---
 import {FullPageImage} from "../components/FullPageImage.jsx";
+import {IntroMithrilTop, IntroMithril} from '../components/MithrilGreet.jsx';
 import Negative_0_0_19 from "../assets/Negative-0-0-19.JPG";
 import Negative_0_3 from "../assets/NEGATIVE-0-3.JPG";
+import wip_JPG from "../assets/3081fff9-de4c-488d-8d73-a1c634ae3af7.JPG";
+
+import settings from "../data/settings.json"
+
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script" rel="stylesheet">
     <meta name="viewport" content="width=device-width" />
     <title>Car Carman</title>
   </head>
   <body>
-    <FullPageImage image={Negative_0_0_19} />
-    <FullPageImage image={Negative_0_3} />
+    <!-- <FullPageImage image={Negative_0_0_19} /> -->
+    <!-- <FullPageImage image={Negative_0_3} /> -->
+    <!-- <IntroMithrilTop /> -->
+    <IntroMithril settings={ settings }/>
+    <FullPageImage image={wip_JPG} />
   </body>
 </html>
 
