@@ -88,7 +88,7 @@ const IntroMithril = {
 
                     m("h1",
                       m("code-ig",
-                        m("pre.section.dancingscript", m("a.button", {
+                        m("pre.section.dancingscript", m("a.button.no-underline", {
                             target: "_",
                             href: "https://www.instagram.com/carman.lei/",
                         }, "www.instagram.com/carman.lei/"))
